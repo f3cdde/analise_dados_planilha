@@ -1,0 +1,17 @@
+# Ignorar arquivos de dados
+data/*.csv
+
+# Ignorar arquivos de cache do Jupyter
+__pycache__/
+*.pyc
+
+# Ignorar arquivos diversos sem valor agregado, locais ou temporários
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.csv
+venv
